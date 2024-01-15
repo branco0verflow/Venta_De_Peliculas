@@ -1,0 +1,72 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: black
+}
+
+.container-2 {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 8%;
+}
+
+.cartelera-peliculas{
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 300%;
+    justify-content: center;
+    font-style: inherit;
+}
+
+.publicar{
+    margin-top: 5%;
+}
+
+.control-formulario{
+    font-size: large;
+    margin-top: 1%;
+    width: 500px;
+    height: 35px;
+}
+
+.contenedor {
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+img.portada{
+    width: 220px;
+    height: 300px;
+    margin: 4%;
+    border-radius: 1%;
+    border: 1%;
+    border-color: bisque; 
+}
+
+h2{
+    font-size: 250%;
+    justify-content: center;
+    font-style: inherit;
+}
+
+.formulario-crud{
+    width:40%;
+}
+
+.boton-inicio{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+

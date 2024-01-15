@@ -1,0 +1,19 @@
+.boton-inicio{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color:grey
+}
+
+#cont-principal{
+    margin-top: 5%;
+}
+
+
+
+

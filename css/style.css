@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+*{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    margin-left: 1%;
+    padding-top: 2%;
+    justify-content: start;
+}
+#logo{
+    color: rgba(131, 14, 14, 0.845);
+    margin-left:0% ;
+    justify-content: start;
+}
+
+h2{
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    margin-left: 3%;
+    color: white;
+}
+
+
+.portada{
+    width: 220px;
+    height: 300px;
+    margin: 2%;
+    border-radius: 2%;
+    border: 1%;
+    border-color: bisque; 
+}
+
+.container {
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.selector{
+    background-color: rgba(131, 14, 14, 0.845);
+    border-radius: 10%;
+    border-color: rgb(126, 1, 1);
+    border: 5%;
+    color: aliceblue;
+    margin-top: 5%;
+    margin-right: 15px;
+}
+
+.usuarios{
+    font-family: sans-serif;
+    font-size: 120%;
+    font-style: oblique;
+    position:relative;
+    right: 0%;
+    display: inline-block;
+    margin-left: 3%;
+    color: brown;
+    margin-top: 5.5%;
+}
+
+.generos{
+    font-family: sans-serif;
+    font-size: 100%;
+    font-style: oblique;
+    position:relative;
+    right: 0%;
+    display: inline-block;
+    margin-left: 4%;
+    color:brown;  
+    justify-content: end;
+}
+
+.buscador{
+    margin-top: 6%;
+    margin-left: 4%;
+}
+
+#inputSearch{
+    width: 250px;
+    height: 40px;
+    border-radius: 60px;
+    border-style: double;
+    text-align: center;
+    font-size: 15px;
+}
+
+#boton-buscar{
+    height: 36px;
+    border-radius: 60px;
+    border-style: none;
+    background-color: black;
+    color: white;
+    margin-left: 0%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegador ul li{
+    float: left;
+}
+
+.navegador ul li a{
+    font-size: 22px;
+    padding: 30px;
+    color: white;  
+}
+
+.carrito{
+    color: white;
+    margin-left: 88%;
+    font-size: 20px ;
+    font-style: italic;
+    margin-top: 0%;
+}
+
+
+h3{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 1%;
+    padding-top: 2%;
+    justify-content: start;
+}
+
+.canti-total{
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.crud{
+    color: white;
+    font-size: 22px;
+}
+
+.css-button-rounded--grey {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgba(131, 14, 14, 0.845);
+    background: rgba(131, 14, 14, 0.845);
+  }
+  .css-button-rounded--grey:hover {
+    background: #fff;
+    color: rgba(131, 14, 14, 0.845);
+}
+
+#boton-trailer{
+    height: 30%;
+}
+
+
+div.precio {
+    font-size: 20px;
+    font-weight: 300;
+    color: wheat;
+    font-family: "Bebas Neue";
+}
+
+.css-button-3d--grey {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #6c757d;
+    box-shadow: 0 5px #495057;
+  }
+  .css-button-3d--grey:hover {
+    box-shadow: 0 3px #495057;
+    top: 1px;
+  }
+  .css-button-3d--grey:active {
+    box-shadow: 0 0 #495057;
+    top: 5px;
+  }
+
+.boton-comprar{
+    border-style: double;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px ;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 1%;
+}
